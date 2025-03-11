@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <mate name="viewport" content="width=device-width, initial-scale=1.0">
+    <title > Log In </title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets\css\style.css" />
+  </head>
+
+
+  <body>
+    <section>
+      <div class="imgBx">
+        <img src="assets/img/bt.jpg" >
+      </div>
+      <div class="contentBx">
+        <div class="formBx">
+          <h2>Login    </h2>
+
+          <form action="login.php" method="post">
+            <?php if (isset($_GET['error'])) { ?>
+           		<p class="error"><?php echo $_GET['error']; ?></p>
+           	<?php } ?>
+            <div class="inputBx">
+              <span>Username</span>
+              <input type="text" name="uname" placeholder="Enter Your User Name" id="username">
+            </div>
+            <div class="inputBx">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="Enter Your Password" id="password">
+            </div>
+            <div class="remember">
+              <label><input type="checkbox" name="" id=""> Remember Me</label>
+            </div>
+            <div class="inputBx">
+              <a href="index.html">
+              <button type="submit" > Sign in </button>
+              </a>
+              <br><br><br>
+              <a href="index.html">
+              <button type="button" value="close this window" name="button">
+                Skip
+              </button>
+              </a>
+            </div>
+            <div class="inputBx">
+              <p>I have an account? <a href="signup.html">Log In</a></p>
+              <BR>
+
+              <p id="demo"> </p>
+            </div>
+          </form>
+          <h3>Login With Social Media</h3>
+          <ul class="sci">
+            <li> <img src="assets/img/facebook.jpg"> </li>
+            <li> <img src="assets/img/twitter.jpg"></li>
+            <li> <img src="assets/img/instagram.jpg"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script>
+    function auth()
+    {
+      var us = document.getElementById("username").value;
+      var pas = document.getElementById("password").value;
+      if(us =="admin" && pas =="12345" )
+      {
+        window.location.assign("index.html");
+      }
+      else
+      {
+        alert("Invalid Information");
+        return;
+      }
+    }
+    </script>
+  </body>
+</html>
