@@ -53,15 +53,21 @@ Online-Shopping/
 <img width="1278" alt="Image" src="https://github.com/user-attachments/assets/f376cea1-312e-48ff-930e-de1e877cb490" />
 
 ## Some pictures 
+
 <img width="1261" alt="Image" src="https://github.com/user-attachments/assets/68470cfe-574c-46aa-8ef8-2abc3d032ada" />
+
 
 <img width="1122" alt="Image" src="https://github.com/user-attachments/assets/53fb52e5-526b-46c7-a3c6-05b09e930bcc" />
 
+
 <img width="1156" alt="Image" src="https://github.com/user-attachments/assets/86dd6784-f7ec-4a86-a4aa-f5b5617bee3d" />
+
 
 <img width="1099" alt="Image" src="https://github.com/user-attachments/assets/59447775-d733-43ad-9482-935de88b0687" />
 
+
 <img width="1058" alt="Image" src="https://github.com/user-attachments/assets/16eb76ff-3741-44b0-b089-8744cc3c1e33" />
+
 
 ## Technologies Used
 - HTML, CSS (Frontend)
