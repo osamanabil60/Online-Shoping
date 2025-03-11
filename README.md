@@ -86,6 +86,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## Contact
 For any inquiries or issues, feel free to contact:
 - **Developer:** Yossef Ibrahim Mohamed
-- **GitHub:** [Your GitHub Profile](https://github.com/YOUR_USERNAME)
-- **Email:** your-email@example.com
-
+- **GitHub:** [GitHub Profile](https://github.com/yossefibrahimmohamed)
+- **Email:** yossefmohamedsalah2001@gmail.com
+- **Youtube:** https://youtube.com/@yossefibrahim2001?si=7TKS7w1YahyTsp8z
